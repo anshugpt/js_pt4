@@ -167,3 +167,40 @@ for(let i=1; i<=4; i++){
 //         console.log(`Array no. ${i+1}, item no. ${j+1} --> ${hero[i][j]}`);
 //     }
 // }
+
+//* for of loops
+// use when we need to access collection of items
+// syntax --> for(element of collection){
+    // do somthing
+// }
+
+// let fruits = ["mango", "lichi", "banana", "kiwi"];
+// for(healthyItems of fruits){ //* it take evry item of fruits and store that in healthyItems.
+//     console.log(healthyItems); //* every items of fruits print on the console
+// }
+
+// let name = "anshuGupta";
+// for(allChar of name){ //* take all charactoe of name and placed it in allChar
+//     console.log(allChar); //* print all the charactor of name
+// }
+// output ->
+// a
+// n
+// s
+// h
+// u
+// G
+// u
+// p
+// t
+// a
+
+//* nested for of loops
+
+// let heros = [["sm", "ca", "im"], ["sm", "bm", "ww"]];
+// for(list of heros){ //* access the both arrays
+//     for(hero of list){ //* access the items of both arrays
+//         console.log(hero);
+//     }
+// }
+// it will print all the items of both arrays
