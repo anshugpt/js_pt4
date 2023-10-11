@@ -228,3 +228,64 @@ for(let i=1; i<=4; i++){
 //         console.log(`You have now ${todo.push(add)} TODO`);
 //     } req = prompt("Enter the request");
 // }
+
+//* Practice Questions
+
+//* Qs1
+
+// let arr = [1, 2, 3, 4, 5, 6, 2, 3];
+// arr.splice(1, 1);
+// arr.splice(-2, 1);
+
+//* Qs2
+
+// let number = 287152
+// let newNum = String(number)  //* Number to String
+// console.log(`Count ${newNum.length}`);
+
+//* Qs3
+
+// let number = 287152
+// let newNum = String(number)
+// let sum = 0
+// for(let i=0; i<newNum.length; i++){
+    
+//     sum += parseInt(newNum[i])   //* converted back to Int for oparations
+// }
+// console.log(`Sum is ${sum}`);
+
+
+//* Qs4
+
+// let n = prompt("What's your number?")
+// let fact = 1
+// for(let i=1; i<=n; i++){
+//     fact *= i
+// }
+// console.log(`Factorial is ${fact}`);
+
+//* Qs5
+
+// let arrNum = [10, 49, 7, 9]
+// let result
+// if (arrNum[0] > arrNum[1] && arrNum[0] > arrNum[2] && arrNum[0] > arrNum[3]){
+//     result = arrNum[0]
+// }
+// if (arrNum[1] > arrNum[0] && arrNum[1] > arrNum[2] && arrNum[1] > arrNum[3]){
+//     result = arrNum[1]
+// }
+// if (arrNum[2] > arrNum[1] && arrNum[2] > arrNum[0] && arrNum[2] > arrNum[3]){
+//     result = arrNum[2]
+// }
+// if (arrNum[3] > arrNum[1] && arrNum[3] > arrNum[2] && arrNum[3] > arrNum[0]){
+//     result = arrNum[3]
+// }
+// console.log(`Gretest Number is ${result}`);
+
+// let largest = 0
+// for(let i=0; i<arrNum.length; i++){
+//     if(largest < arrNum[i]){
+//         largest = arrNum[i]            //* mam method
+//     }
+// }
+// console.log(`Largest Number is ${largest}`);
