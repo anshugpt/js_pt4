@@ -204,3 +204,27 @@ for(let i=1; i<=4; i++){
 //     }
 // }
 // it will print all the items of both arrays
+
+
+// TODO: Make a TODO app 
+
+// let todo = [];
+// let req = prompt("What you want to do?").toLowerCase();
+// let add;
+// while(true){
+//     if(req == "quit"){
+//         console.log("You quit the APP!");
+//         break;
+//     } if(req == "list"){
+//         console.log("------------");
+//         for(lists of todo){
+//             console.log(`TODO ${lists}`);
+//         }
+//         console.log("------------");
+//     } else if(req == "delete"){
+//         console.log(`Your deleted item is ${todo.pop()}`);
+//     } else if(req == "add"){
+//         add = prompt("Add a TODO");
+//         console.log(`You have now ${todo.push(add)} TODO`);
+//     } req = prompt("Enter the request");
+// }
